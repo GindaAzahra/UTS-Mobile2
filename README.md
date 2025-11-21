@@ -17,7 +17,7 @@ Misal:
 * Diskon meningkat jadi 20% bila total > 200.000.
 
 Cubit:
-```dart
+dart
 void hitungTotal() {
   double total = hitungSubtotal();
   double diskon = 0;
