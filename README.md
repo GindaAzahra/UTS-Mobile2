@@ -1,6 +1,7 @@
 # UTS-Mobile2
 # JAWABAN TEORI 
 **1. Jelaskan bagaimana state management dengan Cubit dapat membantu dalam pengelolaan transaksi yang memiliki logika diskon dinamis**
+
 **Jawaban:**
 State management dengan **Cubit** membantu mengelola transaksi yang memiliki logika diskon dinamis karena Cubit memisahkan **logika perhitungan** dari **tampilan UI**. Dengan Cubit, setiap perubahan data (misalnya jumlah item, harga, besaran diskon) akan menghasilkan **state baru** yang otomatis memberi tahu UI untuk memperbarui tampilan.
 
@@ -30,6 +31,7 @@ void hitungTotal() {
 UI otomatis berubah setiap kali Cubit memproses transaksi.
 
 **2. Apa perbedaan antara diskon per item dan diskon total transaksi? Berikan contoh penerapannya dalam aplikasi kasir**
+
 **Jawaban:**
 
 **A. Diskon Per Item**
@@ -69,6 +71,7 @@ Total bayar = **108.000**
 | Cocok promo produk tertentu | Cocok promo belanja minimum   |
 
 **3. Jelaskan manfaat penggunaan widget Stack pada tampilan kategori menu di aplikasi Flutter**
+
 **Jawaban:**
 Widget **Stack** digunakan untuk menumpuk widget di atas satu sama lain, seperti layer.
 
